@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+header {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+aside {
+  float: left;
+  height: 85%;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 85%;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+main div {
+  height: 30%;
+  width: 20%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.one {
+  height: 10%
+}
+.two {
+  height: 60%;
+}
+.three {
+  height: 45%;
+}
+.four {
+  height: 80%;
+}
+footer {
+  margin-left: 5%;
+  display: flex;
+  width: 90%;
+  height: 5%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+footer div {
+  text-align: center;
+}
